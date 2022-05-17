@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  elasticsearch:
+    jest:
+      uris: http://192.168.171.37:9200
+      username: admin
+      password: admin
+  jpa:
+    show-sql: true
+logging:
+  level:
+    teacer: trace
